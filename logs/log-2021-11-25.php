@@ -1,0 +1,543 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-11-25 15:04:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\xampp\htdocs\exotel\beta-Exotel_Integration\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2021-11-25 15:04:50 --> Unable to connect to the database
+ERROR - 2021-11-25 15:05:30 --> 404 Page Not Found: Beta-Exotel_Integration/index
+ERROR - 2021-11-25 15:05:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\xampp\htdocs\exotel\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2021-11-25 15:05:33 --> Unable to connect to the database
+ERROR - 2021-11-25 15:06:06 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\xampp\htdocs\exotel\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2021-11-25 15:06:06 --> Unable to connect to the database
+ERROR - 2021-11-25 15:06:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\xampp\htdocs\exotel\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2021-11-25 15:06:11 --> Unable to connect to the database
+ERROR - 2021-11-25 15:07:36 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\xampp\htdocs\exotel\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2021-11-25 15:07:36 --> Unable to connect to the database
+ERROR - 2021-11-25 15:19:49 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:19:50 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:19:50 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:19:52 --> 404 Page Not Found: History_controller/history
+ERROR - 2021-11-25 15:20:26 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:20:27 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:20:27 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:20:43 --> 404 Page Not Found: History_controller/history
+ERROR - 2021-11-25 15:22:10 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:22:10 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:23:02 --> 404 Page Not Found: History_controller/history
+ERROR - 2021-11-25 15:23:06 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:23:06 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:24:08 --> 404 Page Not Found: History_controller/history
+ERROR - 2021-11-25 15:24:13 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:24:13 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:26:09 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:26:09 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:26:09 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:26:11 --> 404 Page Not Found: Exotel/history
+ERROR - 2021-11-25 15:27:37 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:27:37 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:27:40 --> Query error: Column 'call_to' cannot be null - Invalid query: INSERT INTO `call_history` (`call_to`, `call_from`, `call_type`) VALUES (NULL, NULL, NULL)
+ERROR - 2021-11-25 15:28:29 --> Query error: Column 'call_to' cannot be null - Invalid query: INSERT INTO `call_history` (`call_to`, `call_from`, `call_type`) VALUES (NULL, NULL, NULL)
+ERROR - 2021-11-25 15:29:12 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:29:12 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:29:21 --> Query error: No tables used - Invalid query: SELECT *
+ERROR - 2021-11-25 15:29:25 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:29:25 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:29:25 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:29:25 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:29:25 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:29:31 --> Query error: No tables used - Invalid query: SELECT *
+ERROR - 2021-11-25 15:30:19 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:30:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:30:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:30:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:30:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:30:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:30:21 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:30:21 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:30:28 --> Query error: Column 'call_to' cannot be null - Invalid query: INSERT INTO `call_history` (`call_to`, `call_from`, `call_type`) VALUES (NULL, NULL, NULL)
+ERROR - 2021-11-25 15:30:37 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:30:37 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:30:38 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:30:38 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:30:38 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:30:38 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:08 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:31:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:10 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 15:31:10 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 15:31:13 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:31:13 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:31:13 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:13 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:13 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:13 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:31:17 --> Query error: No tables used - Invalid query: SELECT *
+ERROR - 2021-11-25 15:32:08 --> Query error: No tables used - Invalid query: SELECT *
+ERROR - 2021-11-25 15:34:43 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:34:43 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:34:43 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:34:43 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:34:43 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:38:00 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:38:00 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:38:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:38:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:38:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:38:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:39:18 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:39:18 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:39:19 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:39:19 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:39:19 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:39:19 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:42:50 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:42:50 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:42:51 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:42:51 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:42:51 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:42:51 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:49:53 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:49:53 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:49:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:49:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:49:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:49:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:50:34 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:50:34 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:50:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:50:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:50:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:50:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:51:08 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:51:08 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:51:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:51:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:51:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:51:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:52:59 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:52:59 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:53:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:53:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:53:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:53:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:53:20 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:53:20 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:53:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:53:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:53:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:53:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:54:39 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:54:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:54:40 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:54:40 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:54:40 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:54:40 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:58:20 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 15:58:20 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 15:58:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:58:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:58:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 15:58:20 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:00:51 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:00:51 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:00:52 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:00:52 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:00:52 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:00:52 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:12:56 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:12:56 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:12:56 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:12:56 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:01 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:13:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:02 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 16:13:02 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 16:13:11 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:13:11 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:13:12 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:12 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:12 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:13:12 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:16:00 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:16:00 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:16:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:16:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:16:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:16:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:17:57 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:17:57 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:17:57 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:17:57 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:17:57 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:17:57 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:18:43 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:18:43 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:18:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:18:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:18:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:18:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:21:32 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:21:32 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:21:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:21:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:21:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:21:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:45 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:45 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:45 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:45 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:49 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:28:50 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:50 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:50 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:50 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:50 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:51 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 16:28:51 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 16:28:52 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:28:52 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:28:53 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:53 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:53 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:28:53 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:29:25 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:29:25 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:29:26 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:29:26 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:29:26 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:29:26 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:29:44 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:29:44 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:29:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:29:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:29:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:29:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:30:04 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:30:04 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:30:05 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:30:05 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:30:05 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:30:05 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:30:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:30:33 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:30:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:30:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:30:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:30:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:31:44 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:31:44 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:31:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:31:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:31:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:31:44 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:32:20 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:32:20 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:32:21 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:32:21 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:32:21 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:32:21 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:32:53 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:32:53 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:32:53 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:32:53 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:32:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:32:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:33:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:33:33 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:33:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:33:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:33:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:33:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:34:26 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:34:26 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:34:27 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:34:27 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:34:27 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:34:27 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:35:21 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:35:21 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:35:21 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:35:21 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:35:21 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:35:21 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:36:12 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:36:12 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:36:13 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:36:13 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:36:13 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:36:13 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:40:17 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:40:18 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:40:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:40:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:40:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:40:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:58:29 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:58:29 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:58:30 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:58:30 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:58:30 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:58:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:59:08 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:59:08 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:59:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:59:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:59:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:59:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:59:32 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 16:59:32 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 16:59:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:59:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:59:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 16:59:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:00:51 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:00:51 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:00:51 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:00:51 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:00:51 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:00:51 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:01:32 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:01:32 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:01:32 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:01:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:01:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:01:33 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:02:00 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:02:00 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:02:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:02:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:02:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:02:01 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:03:30 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:03:30 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:03:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:03:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:03:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:03:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:06:12 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:06:12 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:06:12 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:06:12 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:06:12 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:06:12 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:07:56 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:07:56 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:07:56 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:07:56 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:07:56 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:07:56 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:10:33 --> Severity: Notice --> Undefined variable: id C:\xampp\htdocs\exotel\application\views\Exotel\call_Log.php 190
+ERROR - 2021-11-25 17:10:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:10:33 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:10:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:10:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:10:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:10:34 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:01 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:12:01 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:12:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:54 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:12:54 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:12:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:54 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:12:59 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:12:59 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:13:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:00 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:18 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:13:18 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:13:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:38 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:13:38 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:13:39 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:39 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:39 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:13:39 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:14:31 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:14:31 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:14:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:14:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:14:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:14:31 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:16:07 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:16:07 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:16:08 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:16:08 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:16:08 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:16:08 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:17:15 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:17:15 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:17:16 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:17:16 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:17:16 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:17:16 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:19:35 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:19:35 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:19:36 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:19:36 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:19:36 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:19:36 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:21:45 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:21:45 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:21:45 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:21:45 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:21:45 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:21:45 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:22:30 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:22:30 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:22:30 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:22:30 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:22:30 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:22:30 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:31:07 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:31:07 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:31:07 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:31:07 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:31:07 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:33:25 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:33:25 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:33:26 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:33:26 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:33:26 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:33:26 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:34:08 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:34:08 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:34:08 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:34:08 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:34:08 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:34:08 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:36:27 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:36:27 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:36:27 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:36:27 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:36:27 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:36:27 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:40:05 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:40:05 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:40:05 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:40:05 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:40:05 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:40:05 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:40:46 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:40:46 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:40:46 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:40:46 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:40:46 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:40:46 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:41:39 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:41:39 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:41:40 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:41:40 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:41:40 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:41:40 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:42:07 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:42:07 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:42:07 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:42:07 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:42:07 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:42:07 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:43:08 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:43:08 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:43:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:43:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:43:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:43:09 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:43:27 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:43:27 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:43:28 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:43:28 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:43:28 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:43:28 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:02 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:45:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:02 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:03 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 17:45:03 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 17:45:05 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:45:05 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:45:06 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:06 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:06 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:45:06 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:46:51 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:46:51 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:46:52 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:46:52 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:46:52 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:46:52 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:47:17 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:47:17 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:47:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:47:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:47:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:47:18 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:48:24 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:48:24 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:48:25 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:48:25 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:48:25 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:48:25 --> 404 Page Not Found: Assets/modules
+ERROR - 2021-11-25 17:49:25 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:49:29 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 17:49:29 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 17:49:30 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:49:30 --> Severity: Notice --> Undefined index: razor_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 22
+ERROR - 2021-11-25 17:49:30 --> Severity: Notice --> Undefined index: razor_secret_key C:\xampp\htdocs\exotel\application\libraries\Razorpay.php 23
+ERROR - 2021-11-25 17:49:36 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:49:40 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:49:45 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:52:54 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:52:54 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:55:05 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:55:05 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:55:27 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:55:27 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:56:13 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:56:13 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:56:47 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:56:47 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 17:57:07 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 17:57:11 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:01:33 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 18:01:33 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:05:05 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 18:05:05 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:07:35 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 18:07:36 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:10:13 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:10:17 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:10:20 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:10:26 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:10:30 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:15:16 --> 404 Page Not Found: Assets/plugins
+ERROR - 2021-11-25 18:15:16 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:15:36 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:15:39 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:17:01 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:17:04 --> Query error: Unknown column 'customer_name' in 'order clause' - Invalid query: SELECT `id` as `complaints_id`, `mobile`, `booking_id`, `created_on`, `medium`, `complaints`, `status`, `comments`
+FROM `customer_complaints`
+WHERE `archived` =0
+ORDER BY `customer_name` ASC
+ LIMIT 10
+ERROR - 2021-11-25 18:17:09 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:17:25 --> 404 Page Not Found: Logo_smallpng/index
+ERROR - 2021-11-25 18:17:25 --> 404 Page Not Found: Assets/plugins

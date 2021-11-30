@@ -1,0 +1,2888 @@
+a:2:{s:6:"expire";i:1637925910;s:7:"headers";a:0:{}}ENDCI---><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>GarageWorks</title>
+
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/fontawesome/css/all.min.css">
+
+  <!-- CSS Libraries -->
+	
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/chocolat/dist/css/chocolat.css"> 
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/prism/prism.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/datatables/datatables.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/datatables/Select-1.2.4/css/select.bootstrap4.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/bootstrap-daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/select2/dist/css/select2.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/jquery-selectric/selectric.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/summernote/summernote-bs4.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/codemirror/lib/codemirror.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/codemirror/theme/duotone-dark.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/jquery-selectric/selectric.css">
+  
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/owlcarousel2/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/owlcarousel2/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/izitoast/css/iziToast.min.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/modules/ionicons/css/ionicons.min.css">	
+	<link rel="stylesheet" href="http://localhost/exotel/assets/modules/fullcalendar/fullcalendar.min.css">  
+	
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="http://localhost/exotel/assets/css/style.css">
+  <link rel="stylesheet" href="http://localhost/exotel/assets/css/components.css">
+</head>
+
+	 <style>
+		 select{
+			 width: 100% !important;
+		 }
+		 .select2-container.select2-dropdown-open {
+   			 width: 100% !important;
+  			}
+		 .select2-container-multi .select2-search-choice-close {
+    left: auto;
+    right: 3px;
+  }
+
+  .select2-container-multi .select2-choices .select2-search-choice {
+    padding-right: 18px;
+    padding-left: 5px;
+  }
+		 
+.pac-container {
+        z-index: 10000 !important;
+    }	
+		 
+	.select2-selection__clear {
+    /*position: absolute !important; */
+	float: right;
+   right: 20px !important; 
+}
+.form-control::-webkit-input-placeholder {
+  opacity: 0.5; 
+}
+.activities .activity:before {
+    content: " ";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #6777ef;
+}	
+.activities .activity .activity-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    line-height: 10px;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 0px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    text-align: center;
+    z-index: 1;
+}
+.activities .activity .activity-detail {
+    box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 5px;	
+    font-size: 10px;
+}
+	</style>
+    <body>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar">
+        <form class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+            <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
+          </ul>
+          <div class="search-element">
+            <input class="form-control" type="search" placeholder="Case Finder: Enter Booking Id" id="global_casefinder_booking_id" aria-label="Search" data-width="250">
+            <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+            <div class="search-backdrop"></div>
+            <div class="search-result">
+              <div class="search-header">
+                Result
+              </div>
+              <div id="global_casefinder_result">
+               <div class="search-item"><a href="#">Searching...</a></div>
+              </div>
+              
+               
+            </div>
+          </div>
+        </form>
+        <ul class="navbar-nav navbar-right">
+          <li class="dropdown dropdown-list-toggle" style="display: none;"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right">
+              <div class="dropdown-header">Messages
+                <div class="float-right">
+                  <a href="#">Mark All As Read</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-message">
+                <a href="#" class="dropdown-item dropdown-item-unread">
+                  <div class="dropdown-item-avatar">
+                    <img alt="image" src="http://localhost/exotel/assets/img/avatar/avatar-1.png" class="rounded-circle">
+                    <div class="is-online"></div>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Kusnaedi</b>
+                    <p>Hello, Bro!</p>
+                    <div class="time">10 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item dropdown-item-unread">
+                  <div class="dropdown-item-avatar">
+                    <img alt="image" src="http://localhost/exotel/assets/img/avatar/avatar-2.png" class="rounded-circle">
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Dedik Sugiharto</b>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <div class="time">12 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item dropdown-item-unread">
+                  <div class="dropdown-item-avatar">
+                    <img alt="image" src="http://localhost/exotel/assets/img/avatar/avatar-3.png" class="rounded-circle">
+                    <div class="is-online"></div>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Agung Ardiansyah</b>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="time">12 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-avatar">
+                    <img alt="image" src="http://localhost/exotel/assets/img/avatar/avatar-4.png" class="rounded-circle">
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Ardian Rahardiansyah</b>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
+                    <div class="time">16 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-avatar">
+                    <img alt="image" src="http://localhost/exotel/assets/img/avatar/avatar-5.png" class="rounded-circle">
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Alfa Zulkarnain</b>
+                    <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    <div class="time">Yesterday</div>
+                  </div>
+                </a>
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown dropdown-list-toggle" style="display: none;"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right">
+              <div class="dropdown-header">Notifications
+                <div class="float-right">
+                  <a href="#">Mark All As Read</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-icons">
+                <a href="#" class="dropdown-item dropdown-item-unread">
+                  <div class="dropdown-item-icon bg-primary text-white">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    Template update is available now!
+                    <div class="time text-primary">2 Min Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>You</b> and <b>Dedik Sugiharto</b> are now friends
+                    <div class="time">10 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-success text-white">
+                    <i class="fas fa-check"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Kusnaedi</b> has moved task <b>Fix bug header</b> to <b>Done</b>
+                    <div class="time">12 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-danger text-white">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    Low disk space. Let's clean it!
+                    <div class="time">17 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white">
+                    <i class="fas fa-bell"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    Welcome to Stisla template!
+                    <div class="time">Yesterday</div>
+                  </div>
+                </a>
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+            <img alt="image" src="http://localhost/exotel/assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+            <div class="d-sm-none d-lg-inline-block">Hi, Admin Flywheel</div></a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-title"> </div>
+              
+              <div class="dropdown-divider"></div>
+              <a href="http://localhost/exotel/auth/logout" class="dropdown-item has-icon text-danger">
+                <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar sidebar-style-2">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="http://localhost/exotel/"><img alt="image" src="http://localhost/exotel/logo.png" class="img-fluid mr-1 pr-3"></a>
+          </div>
+          <div class="sidebar-brand sidebar-brand-sm">
+            <a href="http://localhost/exotel/"><img alt="image" src="http://localhost/exotel/logo_small.png" class="img-fluid mt-3 pb-2 shadow-light"></a>
+          </div>
+          <ul class="sidebar-menu"> 
+            <li class="">
+              <a href="http://localhost/exotel/" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a> 
+            </li>
+			 
+            <li class="menu-header">Menu</li>
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			 
+			  			                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-user-cog"></i>
+                        <span class="title"><b>User Mgmt</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/users/list_users" class="nav-link">
+									 
+                                    <span class="title">Manage User</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-history"></i>
+                        <span class="title"><b>Exotel</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/CallLog/history" class="nav-link">
+									 
+                                    <span class="title">Call tracker</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/History_controller/history" class="nav-link">
+									 
+                                    <span class="title">Archived data</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-gift"></i>
+                        <span class="title"><b>Voucher</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/Voucher/" class="nav-link">
+									 
+                                    <span class="title">Manage voucher</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="http://localhost/exotel/bookings/" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-calendar"></i>
+                        <span class="title"><b>Bookings</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/add_booking" class="nav-link">
+									 
+                                    <span class="title">Add New Booking</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/list_bookings/1" class="nav-link">
+									 
+                                    <span class="title">New Bookings</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/list_bookings/2" class="nav-link">
+									 
+                                    <span class="title">Assigned Bookings</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/list_bookings/3" class="nav-link">
+									 
+                                    <span class="title">Ongoing Bookings</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/list_bookings/4" class="nav-link">
+									 
+                                    <span class="title">Completed Bookings</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/list_bookings/5" class="nav-link">
+									 
+                                    <span class="title">Cancelled Bookings</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/leads/list_leads" class="nav-link">
+									 
+                                    <span class="title">Leads</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/delete_booking" class="nav-link">
+									 
+                                    <span class="title">Delete Bookings</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-motorcycle"></i>
+                        <span class="title"><b>Service Delivery</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/pending_jobcards" class="nav-link">
+									 
+                                    <span class="title">Create Jobcards</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/jobcard_spares" class="nav-link">
+									 
+                                    <span class="title">Assign Spares</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/unapproved_jobcards" class="nav-link">
+									 
+                                    <span class="title">Jobcard Approval</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/assign_mechanic" class="nav-link">
+									 
+                                    <span class="title">Assign Mechanic</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-money-bill"></i>
+                        <span class="title"><b>Accounts</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/unpaid_bookings" class="nav-link">
+									 
+                                    <span class="title">Unpaid Bookings</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/bookings/list_invoice" class="nav-link">
+									 
+                                    <span class="title">Invoices</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-screwdriver"></i>
+                        <span class="title"><b>Master</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/vendor/list_vendors" class="nav-link">
+									 
+                                    <span class="title">Manage Vendor</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/customer/list_customers" class="nav-link">
+									 
+                                    <span class="title">Manage Customers</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/serviceproviders/list_serviceproviders" class="nav-link">
+									 
+                                    <span class="title">Manage Mechanic</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="http://localhost/exotel/spares/" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-cogs"></i>
+                        <span class="title"><b>Spares Master</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/spares/list_items" class="nav-link">
+									 
+                                    <span class="title">Items List</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/spares/list_spares" class="nav-link">
+									 
+                                    <span class="title">Spares List</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/spares/list_spares_rate" class="nav-link">
+									 
+                                    <span class="title">Spares Rates</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-compass"></i>
+                        <span class="title"><b>Estimate Generator</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/estimator/estimate" class="nav-link">
+									 
+                                    <span class="title">Create Estimate</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-frown"></i>
+                        <span class="title"><b>Feedback & Complaints</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/complaints/list_complaints" class="nav-link">
+									 
+                                    <span class="title">View Complaints</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/feedbacks/list_feedback" class="nav-link">
+									 
+                                    <span class="title">Feedback</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/feedbacks/list_referral" class="nav-link">
+									 
+                                    <span class="title">Referrals</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/complaints/list_closed_complaints" class="nav-link">
+									 
+                                    <span class="title">View Closed Complaints</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-shield-alt"></i>
+                        <span class="title"><b>Insurance</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-file-export"></i>
+                        <span class="title"><b>Reports</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/reports/billingreport" class="nav-link">
+									 
+                                    <span class="title">Billing Report</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/reports/spareslog" class="nav-link">
+									 
+                                    <span class="title">Spares Log</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/reports/complaintslog" class="nav-link">
+									 
+                                    <span class="title">Complaints Log</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/reports/servicelog" class="nav-link">
+									 
+                                    <span class="title">Service Log</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/reports/bookinglog" class="nav-link">
+									 
+                                    <span class="title">Bookings Log</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/reports/view_spares_recon" class="nav-link">
+									 
+                                    <span class="title">Spares Recon Log</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/reports/leadslog" class="nav-link">
+									 
+                                    <span class="title">Leads Log</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/reports/archivedleadslog" class="nav-link">
+									 
+                                    <span class="title">Archived Leads</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                                                              <li class="dropdown"> 
+							
+                    <a href="javascript:;" class="nav-link has-dropdown" data-toggle="dropdown">
+                        <i class="fas fa-gas-pump"></i>
+                        <span class="title"><b>Mechanic Stats</b></span> 
+                    </a>
+                     <ul class="dropdown-menu">
+                                                                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/mechanicdash/mechanicdash" class="nav-link">
+									 
+                                    <span class="title">Cases/Ratings</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/mechanicdash/mechanicbill" class="nav-link">
+									 
+                                    <span class="title">Billing Stats</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/mechanicdash/mechanicperform" class="nav-link">
+									 
+                                    <span class="title">Performance</span>
+                                </a>
+                                </li>
+                                                    						                                                                                                <li class="layout_default ">  
+                                <a href="http://localhost/exotel/mechanicdash/mechanictravel" class="nav-link">
+									 
+                                    <span class="title">Travel</span>
+                                </a>
+                                </li>
+                                                    						 
+                    </ul>
+                    </li>
+			                  			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+          
+              
+          </ul>
+
+          <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
+            <a href="#" class="btn btn-primary btn-lg btn-block btn-icon-split">
+              <i class="fas fa-rocket"></i> Support
+            </a>
+          </div>
+        </aside>
+      </div>
+<!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+          <div class="section-header">
+            <h1>Add Booking</h1>
+            <div class="section-header-breadcrumb" style="display: none;">
+              <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
+              <div class="breadcrumb-item"><a href="#">Modules</a></div>
+              <div class="breadcrumb-item">DataTables</div>
+            </div>
+          </div><link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css" rel="stylesheet">
+
+
+
+
+<div class="section-body">
+            <h2 class="section-title">Customer Details</h2> 
+	 
+    <div class="row">
+        <div class="col-lg-12">
+      		<div class="panel">
+                 
+                <div class="panel-body">
+                     
+						<form action="http://localhost/exotel/bookings/insert_booking" class="form-horizontal group-border hover-stripped" id="addedit_form" method="post" enctype="multipart/form-data" accept-charset="utf-8">
+						 
+						<div class="form-row">
+						<div class="form-group col-md-6">
+                                <label>Mobile</label>
+                                <input class="form-control" placeholder="912345678" id="mobile" type="text" value="" name="mobile">
+                        </div>
+										 
+						<input class="form-control" value="0" type="hidden" id="leads_convert" name="leads_convert"> 	
+						<input class="form-control" value="" type="hidden" id="leads_id" name="leads_id"> 		
+							 
+						<input class="form-control" value="0" type="hidden" id="followup_booking" name="followup_booking"> 	
+						<input class="form-control" value="" type="hidden" id="followup_id" name="followup_id"> 		
+							
+							
+						<input class="form-control" value="0" type="hidden" name="customer_id"> 	
+						<input class="form-control" value="new" type="hidden" name="customer_type"> 	
+						<div class="form-group col-md-6"> 
+                                <label>Customer Name</label>
+                                <input class="form-control"  placeholder="Customer Name" id="name" value="" type="text" name="name"> 
+                        </div>
+					  
+						<div class="form-group col-md-6">	
+                            <label>Alternate No</label>
+								<input class="form-control" placeholder="Alternate Number"  value="" type="text" name="alternate_no"> 
+                         </div>
+				
+                        <div class="form-group col-md-6"> 
+                                <label>Email</label>
+                                <input class="form-control" type="text" value="" name="email">
+                         </div>
+				
+						<div class="form-group col-md-6 offset-md-6"> 
+                                <label>Channel</label>
+                                <select class="form-control select-ajax-channel" id="channel" placeholder="Channel" name="channel">
+								<option selected value=""></option>
+								</select>	
+                         </div>
+							
+							
+							 
+							 
+							  
+							
+						<div class="col-md-12" id="addresscards"> 	
+						 	
+							<div class="card-address-number card card-info" id="card_address">
+                  <div class="card-header"> 
+					  
+                     <h4>Address Details</h4>
+					  <div id="address_type_div" style="width: 100%;">
+					  					  	 						 </div>
+					<div class="card-header-action col-md-3">
+				
+                      <a data-collapse="#address-collapse" class="btn btn-icon btn-info float-right" href="#"><i class="fas fa-minus"></i></a>
+                    </div>  
+                  </div>
+				<div class="collapse show" id="address-collapse" style="">			
+				 <div class="card-body">
+					 <div class="row">
+						<div class="form-group col-md-12"><label>Address:   </label> 
+								<input name="address" type="text" class='form-control' id='address' value="" placeholder='Address'></input>
+						</div>
+						<div class="form-group col-md-6">
+                                <label>City</label>
+                                <select class="form-control select-ajax-city" style="width: 100%;"  placeholder="City" id="city" name="city"> 
+								<option selected value=""></option> 
+								</select>
+                         </div>	
+						<div class="form-group col-md-6">
+                                <label>Area</label>
+                                 <select class="form-control select-ajax-area" id="area" placeholder="Area" name="area">
+								<option selected value=""></option>
+								</select>
+                         </div>
+						
+						<div class="form-group col-md-6">
+                                <label>Pincode</label>
+                                <input class="form-control input-pincode" value="" id="pincode" type="text" name="pincode">
+								<input class="form-control input-zone" value="" id="zone" type="hidden" name="zone">
+                         </div>
+						<div class="form-group col-md-6">
+                                <label>Google Map</label>
+                                <input class="form-control google_map" id="google_map" value="" type="text" name="google_map">
+								<input type="hidden" class="latitude" id="latitude" name="latitude" value="" />
+								<input type="hidden" class="longitude" id="longitude" name="longitude" value="" />
+							
+							 
+							
+							
+                         </div>	
+					 </div>
+					</div>
+					</div>		
+                			</div>			
+					
+							</div>
+					
+							<div class="col-md-12" id="vehiclecards"> 	
+						 
+							<div class="card-vehicle-number card card-info" id="card_vehicle">
+                  <div class="card-header"> 
+					   
+                     <h4>Vehicle Details</h4>
+					   <div id="customer_vehicle_div" style="width: 100%;">
+					   					  </div>
+					<div class="card-header-action col-md-3">
+                        <a class="btn btn-icon btn-info float-left" href="javascript:clearVehicle();"><i class="fas fa-plus"></i>Add New</a>
+						<a data-collapse="#vehicle-collapse" class="btn btn-icon btn-info float-right" href="#"><i class="fas fa-minus"></i></a>
+                    </div>  
+                  </div>
+				<div class="collapse show" id="vehicle-collapse" style="">			
+				 <div class="card-body">
+					 <div class="row">
+						<div class="form-group col-md-6">
+                                <label>Make</label>
+                                <select class="form-control select-ajax-make" style="width: 100%;"  placeholder="Make" id="make" name="make">
+								<option selected value=""></option> 
+								</select>
+                         </div>	
+						<div class="form-group col-md-6">
+                                <label>Model</label>
+                                 <select class="form-control select-ajax-model" id="model"  placeholder="Model" name="model">
+								 <option selected value=""></option>
+								</select>
+							<input class="form-control input-modelcode" id="model_code" value="" type="hidden" name="model_code">
+							<input class="form-control input-vehiclecategory" id="vehicle_category" value="" type="hidden" name="vehicle_category">
+							
+                         </div>
+						 
+						 
+						 <div class="form-group col-md-4"><label>Registration No:   </label>
+								<input name="reg_no" type="text" class='form-control' id='reg_no' value="" placeholder='MHXX-XX-XXXX'></input>
+						</div>
+					 	<div class="form-group col-md-4">
+                                <label>Year Of Make</label>
+                                <input class="form-control year" autocomplete="off" value="" id="yom"  type="text" name="yom">
+                         </div>
+						<div class="form-group col-md-4">
+                                <label>Km Reading</label>
+                                <input class="form-control" value="" type="number" id="km_reading" name="km_reading">
+							 
+                         </div>	
+					 
+						
+						<div class="col-md-6">
+                           <div class="form-group" class="last_service_id" style="display: none;">
+                              <label class="control-label">Vehicle Last Service ID: </label>
+                              <br> <input name="last_service_id" id="last_service_id" type="hidden" value="" />
+							   <input name="last_service_date" id="last_service_date" type="hidden" value="" />
+							   <div id="last_service_id_div"></div>
+                           </div>
+                            
+                      </div> 
+						
+					 </div>
+					</div>
+					</div>		
+                			</div>			
+					
+							</div>
+				
+				
+				<div class="col-md-12" id="service_categorycards"> 	
+						 
+							<div class="card-service_category card card-info" id="card_service_category">
+                  <div class="card-header"> 
+					  
+                     <h4>Service Details</h4>
+					<div class="card-header-action col-md-6">
+                      <a data-collapse="#service-category-collapse" class="btn btn-icon btn-info float-right" href="#"><i class="fas fa-minus"></i></a>
+                    </div>  
+                  </div>
+				<div class="collapse show" id="service-category-collapse" style="">			
+				 <div class="card-body">
+					 <div class="row">
+						<div class="form-group col-md-12"><label>Service Category:   </label>
+								<select class="form-control select-ajax-service-category" style="width: 100%;"  placeholder="Service Category" id="service_category" name="service_category">
+								<option selected value=""></option> 
+								</select>
+							<div class="selected_service_category p-3" style="display: none;"></div>
+						</div> 
+						<div class="form-group col-md-6"><label>Service Date:   </label>
+								 <input class="form-control" value="" type="date" id="service_date" name="service_date">
+						</div>
+						 
+						 <div class="form-group col-md-6"><label>Time Slot:   </label>
+								 <select class="form-control select-ajax-time-slot" style="width: 100%;"  placeholder="Time Slot" id="time_slot" name="time_slot">
+								<option selected value=""></option> 
+								</select>
+						</div>
+						 
+						
+					 </div>
+					</div>
+					</div>		
+                			</div>			
+					
+							</div>
+			
+				
+					<div class="col-md-12" id="specific_cards"> 	
+						 
+							<div class="card-specific card card-info" id="card_specific">
+                  <div class="card-header"> 
+					  
+                     <h4>Specific Details</h4>
+					<div class="card-header-action col-md-6">
+                      <a data-collapse="#specific-collapse" class="btn btn-icon btn-info float-right" href="#"><i class="fas fa-minus"></i></a>
+                    </div>  
+                  </div>
+				<div class="collapse show" id="specific-collapse" style="">			
+				 <div class="card-body">
+					 <div class="row">
+						 
+					 	
+						  <div class="form-group col-md-12"><label>Complaints:   </label>
+								<select class="form-control select-ajax-complaints" style="width: 100%;"  placeholder="Complaints" id="complaints" name="complaints">
+								<option selected value=""></option> 
+								</select>
+							 <input class="all_selected_complaints" id="all_selected_complaints" value="" name="all_selected_complaints" type="hidden" />
+							 <div class="selected_complaints p-3"></div>
+						</div>
+						 
+						 
+						<div class="form-group col-md-6"><label>Specific Spares:   </label>
+								<select class="form-control select-ajax-spares" style="width: 100%;"  placeholder="Specific Spares" id="specific_spares" name="specific_spares">
+								<option selected value=""></option> 
+								</select>
+							<div class="selected_spares p-3"></div>
+							<div style="display: none;" id="brand_div"></div>
+						</div>
+						 
+						 <div class="form-group col-md-6"><label>Specific Repairs:   </label>
+								<select class="form-control select-ajax-labour" style="width: 100%;"  placeholder="Specific Repairs" id="specific_repairs" name="specific_repairs">
+								<option selected value=""></option> 
+								</select>
+							 <div class="selected_labour p-3"></div>
+						</div>
+						 
+						 
+						
+						 
+						
+					 </div>
+					</div>
+					</div>		
+                			</div>			
+					
+							</div>
+				
+				
+						 	 
+								              <div class="col-md-12" id="estimate_cards"> 	
+                <div class="card-estimate card card-info" id="card_estimate">
+                  <div class="card-header">
+                    <h4>Estimate</h4>
+					 <div class="card-header-action col-md-6">
+                      <a data-collapse="#estimate-collapse" class="btn btn-icon btn-info float-right" href="#"><i class="fas fa-minus"></i></a>
+                    </div>   
+                  </div>
+				   <div class="collapse show" id="estimate-collapse" style="">		
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-striped" id="estimate_table">
+                        <thead>
+                          <tr> 
+                            <th>#</th>
+                            <th>Description</th> 
+                            <th>Quantity</th>
+                            <th>Spares</th>
+                            <th>Labour</th>
+                            <th>Total</th>
+                            <th>Delete</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+					</div>   
+                </div>
+              </div>
+            
+				<div class="col-md-12" id="complaints_tables_div"> 	
+				</div>
+				
+				<div class="col-md-12" id="comments_div"> 	
+				<div class="form-group">
+                      <label>Comments</label>
+					  <textarea class="form-control" rows="5" cols="100" name="comments" id="comments"></textarea> 
+                    </div>
+					 
+					
+					<input class="form-control" value="" id="total_estimate_sum" type="hidden" name="total_estimate_sum">
+					<input class="form-control" value="" id="max_complaints_val" type="hidden" name="max_complaints_val">
+					<input class="form-control" value="" id="min_complaints_val" type="hidden" name="min_complaints_val">
+					
+					 	
+				</div>	
+				
+				<div class="col-md-6"> 	
+					<div class="form-group">
+                      <label>Minimum Total Estimate: </label>
+					  <input class="form-control" value="0" id="totalcombine_min" type="text" readonly name="totalcombine_min"> 	
+                    </div>
+				</div>
+				
+				<div class="col-md-6"> 	
+					<div class="form-group">
+                      <label>Maxiumum Total Estimate: </label>
+					  <input class="form-control" value="0" id="totalcombine_max" type="text" readonly name="totalcombine_max"> 	
+                    </div>
+				</div>		 
+					
+					 
+				
+					
+					 
+				
+				
+				
+				
+						</div>
+				<div class="panel-footer">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <input type='submit' value='Submit' class='btn btn-success formsubmit_button '  >                                <a href="javascript:reset_on_cancelbtn('http://localhost/exotel//bookings/add_booking/');" class="btn btn-warning">Cancel</a>
+                            </div>
+                        </div> 
+						</div>	
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+  
+	  </section>
+      </div>	
+      <footer class="main-footer">
+        <div class="footer-left">
+          Copyright &copy;  <div class="bullet"></div> 
+        </div>
+        <div class="footer-right">
+          
+        </div>
+      </footer>
+    
+
+  <!-- General JS Scripts -->
+  <script src="http://localhost/exotel/assets/modules/jquery.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/popper.js"></script>
+  <script src="http://localhost/exotel/assets/modules/tooltip.js"></script>
+  <script src="http://localhost/exotel/assets/modules/bootstrap/js/bootstrap.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/moment.min.js"></script>
+  <script src="http://localhost/exotel/assets/js/stisla.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <!-- JS Libraies -->
+
+  
+  <script src="http://localhost/exotel/assets/modules/jquery-ui/jquery-ui.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/chocolat/dist/js/jquery.chocolat.min.js"></script> 
+  <script src="http://localhost/exotel/assets/modules/prism/prism.js"></script>
+
+  <script src="http://localhost/exotel/assets/modules/cleave-js/dist/cleave.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/cleave-js/dist/addons/cleave-phone.us.js"></script>
+  <script src="http://localhost/exotel/assets/modules/jquery-pwstrength/jquery.pwstrength.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/bootstrap-daterangepicker/daterangepicker.js"></script>
+  <script src="http://localhost/exotel/assets/modules/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/select2/dist/js/select2.full.min.js"></script> 
+  
+  <script src="http://localhost/exotel/assets/modules/summernote/summernote-bs4.js"></script>
+  <script src="http://localhost/exotel/assets/modules/codemirror/lib/codemirror.js"></script>
+  <script src="http://localhost/exotel/assets/modules/codemirror/mode/javascript/javascript.js"></script>
+  
+  
+  <script src="http://localhost/exotel/assets/modules/datatables/datatables.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js"></script>
+  <script src="http://localhost/exotel/assets/modules/datatables/Select-1.2.4/js/dataTables.select.min.js"></script> 
+
+  
+  <script src="http://localhost/exotel/assets/modules/jquery-selectric/jquery.selectric.min.js"></script>
+  
+  <script src="http://localhost/exotel/assets/modules/izitoast/js/iziToast.min.js"></script>
+  
+  <script src="http://localhost/exotel/assets/modules/sweetalert/sweetalert.min.js"></script>
+
+
+
+
+
+  <!-- Page Specific JS File -->
+
+
+
+  <!-- Template JS File -->
+  <script src="http://localhost/exotel/assets/js/scripts.js"></script>
+  <script src="http://localhost/exotel/assets/js/custom.js"></script>
+
+ 
+ 
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/js/bootstrap-datepicker.min.js"></script>
+    
+<script type="text/javascript"> 
+function reset_on_cancelbtn(custom_url) {	
+	
+		
+	if(custom_url == ''){ custom_url='http://localhost/exotel/bookings/add_booking' } 
+	
+	$.ajax({
+    type: "POST",
+    url: "http://localhost/exotel/generals/cancel_btn",
+	data: {'page': 'http://localhost/exotel/bookings/add_booking', 'custom_url': custom_url},
+	success: function(urltogo){
+         
+        if(urltogo !== ""){
+           window.location.href = urltogo;
+        }
+    },
+    error: function(urltogo){
+       // alert('Error: cannot load page.');
+    }
+	});
+}
+	
+	
+	$(document).on('show.bs.modal', '.modal', function () {
+  $(this).appendTo('body');
+});
+	
+	$(document).on('keyup keypress', 'form input[type="text"]', function(e) {
+  if(e.keyCode == 13) {
+    e.preventDefault();
+    return false;
+  } 
+		
+});
+	
+	$(document).ready(function(){ 
+			
+				
+				$("#mobile").on("change", function(){
+        var mobNum = $(this).val();
+        var filter = /^\d*(?:\.\d{1,2})?$/;
+
+          if (filter.test(mobNum)) {
+            if(mobNum.length==10){
+              $("#mobile-valid").removeClass("hidden");
+              $("#folio-invalid").addClass("hidden");
+             } else {
+				 $("#mobile").val();
+                alert('Please enter 10  digit mobile number');
+               $("#folio-invalid").removeClass("hidden");
+               $("#mobile-valid").addClass("hidden");
+                return false;
+              }
+            }
+            else {
+              alert('Not a valid number');
+              $("#folio-invalid").removeClass("hidden");
+              $("#mobile-valid").addClass("hidden");
+              return false;
+           }
+    
+  });
+		
+		
+		
+	});
+	
+	 var spares_array = []; 
+     var labour_array = [];		
+     var complaints_counter = 1;	 
+     var complain_array = [];
+     var newcomplaintslist = '';	
+     var old_complaints_selected  = $('#all_selected_complaints').val();	
+     var service_category_array = [];	
+     var estimate_table = $('#estimate_table').DataTable({ paging: false, searching: false, ordering:false, info:false}); 
+     var counter = 1;	  
+	 	 
+    $(document).ready(function(){	
+		// GET USERS
+		$(".select-ajax-users").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,	
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/users_dropdown/",
+            type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page
+					  };
+				},
+				processResults: function (data, params) {
+		  params.page = params.page || 1;
+		  return {
+			results: data,
+			pagination: {
+			  more: (params.page * 30) < data.total_count
+			} 
+		  };
+		},cache: true
+			}
+		});
+		
+		
+		// GET SERVICE PROVIDERS
+		$(".select-ajax-service-providers").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+			
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/service_providers_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        }
+    });
+		
+		
+		
+		// GET CHANNEL
+		$(".select-ajax-channel").select2({
+        placeholder: "Search",
+        minimumInputLength: 0,
+		width: 'resolve',
+		allowClear: false,
+			
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/channel_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        }
+    });
+		
+		
+	// GET CITY
+		$(".select-ajax-city").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+			
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/city_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        }
+    });
+		
+		
+	$(".select-ajax-city").change(function(){
+    	$(".select-ajax-area").val('');
+		$(".select-ajax-area").trigger('change');
+		
+		$(".input-pincode").val('');
+		$(".input-zone").val('');
+		$(".google_map").val('');
+		$(".longitude").val('');
+		$(".latitude").val(''); 
+	 
+			
+	});
+		
+		
+		
+	 //GET AREA FROM CITY
+	$(".select-ajax-area").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+			
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/area_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page,
+						city: $('#city').val(),
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-pincode', data.pincode);
+	$(data.element).attr('data-zone', data.zone);		
+    return data.text;
+  }
+    });
+		
+	 //POPULATE PINCODE ON AREA CHANGE
+		$('.select-ajax-area').change(function(){
+    	var pincode = ($(this).find(':selected').data('pincode'));; 
+		$('.input-pincode').val(pincode);
+		});
+	//POPULATE ZONE ON AREA CHANGE	
+		$('.select-ajax-area').change(function(){
+    	var zone = ($(this).find(':selected').data('zone'));; 
+		$('.input-zone').val(zone);
+		});
+		
+		 $('.select-ajax-area').on('select2:open', function (e) {  
+		if($('.select-ajax-city').val()===''){
+					swal('Ahh!', "Please select proper 'City' first.", 'warning', { buttons: false, timer: 2000,  });  
+				}	
+	 
+	});
+		
+		////GET MAKE
+		$(".select-ajax-make").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,	
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/make_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        }
+    });
+	
+	$(".select-ajax-make").change(function(){
+    	$(".select-ajax-model").val('');
+		$(".select-ajax-model").trigger('change');
+		$("#reg_no").val('');
+		$("#yom").val('');
+		$("#km_reading").val(''); 
+		$(".select-ajax-service-category").val('');
+		$(".select-ajax-service-category").trigger('change');
+	});
+		
+		 //GET MODEL FROM MAKE
+	$(".select-ajax-model").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+			
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/model_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page,
+						make_id: $('#make').val(),
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-vehiclecategory', data.vehiclecategory);
+	$(data.element).attr('data-modelcode', data.modelcode);		
+    return data.text;
+  }
+    });
+		
+	 $('.select-ajax-model').on('select2:open', function (e) {  
+		if($('.select-ajax-make').val()===''){
+					swal('Ahh!', "Please select proper 'Make' first.", 'warning', { buttons: false, timer: 2000,  });  
+				}	
+	 
+	});
+		
+		
+		
+		
+	 //POPULATE VEHICLE CATEGORY ON MODEL CHANGE
+		$('.select-ajax-model').change(function(){
+    	var vehiclecategory = ($(this).find(':selected').data('vehiclecategory'));; 
+		$('.input-vehiclecategory').val(vehiclecategory);
+		});
+	//POPULATE MODEL CODE ON MODEL CHANGE
+		$('.select-ajax-model').change(function(){
+    	var modelcode = ($(this).find(':selected').data('modelcode'));; 
+		$('.input-modelcode').val(modelcode);
+		});
+		
+	 
+	
+	
+	 //GET SERVICE CATEGORY
+	$(".select-ajax-service-category").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/service_category_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page,
+						vehiclecategory: $('.input-vehiclecategory').val(), 
+						city: $('.select-ajax-city').val(),
+						area: $('.select-ajax-area').val(),
+					  }; 
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-categoryrates', data.category_rates); 
+	$(data.element).attr('data-service_name', data.text);		
+    return data.text;
+  }
+    });
+	
+	 $('.select-ajax-service-category').on('select2:open', function (e) {  
+		if($('.select-ajax-area').val()===''){
+					swal('Ahh!', "Please select proper  'City' & 'Area'  first.", 'warning', { buttons: false, timer: 2000,  });  
+				}
+		 if($('.input-modelcode').val()==='' || $('.input-vehiclecategory').val()===''){
+					swal('Ahh!', "Please select proper 'Model' first.", 'warning', { buttons: false, timer: 2000,  });  
+				}
+	 
+	});
+		
+		
+	//GET SERVICE CATEGORY
+	$("#select-ajax-service-category").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/service_category_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page,
+						vehiclecategory: $('.input-vehiclecategory').val(), 
+						city: $('.select-ajax-city').val(),
+						area: $('.select-ajax-area').val(),
+					  }; 
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-categoryrates', data.category_rates); 
+	$(data.element).attr('data-service_name', data.text);		
+    return data.text;
+  }
+    });
+	
+	 $('#select-ajax-service-category').on('select2:open', function (e) {  
+		if($('.select-ajax-area').val()===''){
+					swal('Ahh!', "Please select proper  'City' & 'Area'  first.", 'warning', { buttons: false, timer: 2000,  });  
+				}
+		 if($('.input-modelcode').val()==='' || $('.input-vehiclecategory').val()===''){
+					swal('Ahh!', "Please select proper 'Model' first.", 'warning', { buttons: false, timer: 2000,  });  
+				}
+	 
+	});
+		//POPULATE TABLE ON SERVICE CATEGORY CHANGE
+	$("#select-ajax-service-category").change(function(){  
+			var service_category = $(this).find(':selected').data('service_name');
+			var itemtype = $(this).find(':selected').data('itemtype'); 
+			var sparesrates = 0; 
+			var labourrates = $(this).find(':selected').data('categoryrates'); 
+			var totalrates = $(this).find(':selected').data('categoryrates'); 
+			var sparesid = ''; 
+			var itemcode = ''; 
+			var itemname = service_category; 
+			if($.inArray(service_category, service_category_array) != -1){
+				swal('Ahh!', "This Service Category already selected.", 'warning', { buttons: false, timer: 2000,  });  	
+				}else{
+		   if(service_category !== ""){     
+			$('#service_category_rate').val(totalrates); 	 
+ 			$(".selected_service_category").append('<div id="selected_'+service_category+'" class="badge badge-info mr-2">'+itemname+'</div>');
+        counter++;  
+			   service_category_array.push(service_category); 	 
+		   }
+		   }
+	  });
+		
+		
+	 //GET TIME SLOT
+	$(".select-ajax-time-slot").select2({
+        placeholder: "Search",
+        minimumInputLength: 0,
+		width: 'resolve',
+		allowClear: false,
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/timeslot_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page, 
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        }
+    });	
+		
+		//GET ITEMS LIST
+	$(".select-ajax-items").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/items_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page, 
+					  }; 
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option  
+    $(data.element).attr('data-itemname', data.itemname);  
+    return data.text;
+  }
+    });
+	
+		 
+		
+		
+	 $('.select-ajax-spares').on('select2:open', function (e) {  
+		 
+		 if($('.input-modelcode').val()==='' || $('.input-vehiclecategory').val()===''){
+					swal('Ahh!', "Please select proper 'Model' first.", 'warning', { buttons: false, timer: 2000,  });  
+				}
+		  if($('.select-ajax-area').val()===''){
+					swal('Ahh!', "Please select proper 'City' & 'Area' first.", 'warning', { buttons: false, timer: 2000,  });
+		  }
+		  if($('.select-ajax-channel').val()===''){
+					swal('Ahh!', "Please select proper 'Channel' first.", 'warning', { buttons: false, timer: 2000,  });	  
+		}
+	 
+	});
+		
+		
+		
+		
+		//GET SPARES LIST
+	$(".select-ajax-spares").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/spares_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page,
+						vehiclecategory: $('.input-vehiclecategory').val(), 
+						modelcode: $('.input-modelcode').val(),
+						city: $('#city').val(),
+						channel: $('#channel').val(),
+					  }; 
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-itemtype', data.itemtype); 
+    $(data.element).attr('data-sparesrates', data.sparesrates); 
+    $(data.element).attr('data-labourrates', data.labourrates); 
+    $(data.element).attr('data-totalrates', data.totalrates); 
+    $(data.element).attr('data-sparesid', data.sparesid); 
+    $(data.element).attr('data-itemcode', data.itemcode); 
+    $(data.element).attr('data-itemname', data.itemname); 
+    $(data.element).attr('data-itemid', data.itemid); 
+    $('#brand_div').html(data.brand); 
+    return data.text;
+  }
+    });
+	
+		 
+		
+		
+	 $('.select-ajax-spares').on('select2:open', function (e) {  
+		 
+		 if($('.input-modelcode').val()==='' || $('.input-vehiclecategory').val()===''){
+					swal('Ahh!', "Please select proper 'Model' first.", 'warning', { buttons: false, timer: 2000,  });  
+				}
+		  if($('.select-ajax-area').val()===''){
+					swal('Ahh!', "Please select proper 'City' & 'Area' first.", 'warning', { buttons: false, timer: 2000,  });
+		  }
+		  if($('.select-ajax-channel').val()===''){
+					swal('Ahh!', "Please select proper 'Channel' first.", 'warning', { buttons: false, timer: 2000,  });	  
+		}
+	 
+	});
+		
+		
+			//GET LABOUR LIST
+	$(".select-ajax-spares-brand").select2({
+        placeholder: "Search",
+        minimumInputLength: 0,
+		width: 'resolve',
+		allowClear: false,
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/spares_brand_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) { 
+                return {
+						q: params.term, // search term
+						page: params.page,
+						spareid: $(this).data("spareid"), 
+					  }; 
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-brandrate', data.brand_rate);  
+    return data.text;
+  }
+    });
+		
+		// Initialize select2
+
+		//GET LABOUR LIST
+	$(".select-ajax-labour").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/labour_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page,
+						vehiclecategory: $('.input-vehiclecategory').val(), 
+						modelcode: $('.input-modelcode').val(),
+						city: $('#city').val(),
+					  }; 
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-itemtype', data.itemtype); 
+    $(data.element).attr('data-sparesrates', data.sparesrates); 
+    $(data.element).attr('data-labourrates', data.labourrates); 
+    $(data.element).attr('data-totalrates', data.totalrates); 
+    $(data.element).attr('data-sparesid', data.sparesid); 
+    $(data.element).attr('data-itemcode', data.itemcode); 
+    $(data.element).attr('data-itemname', data.itemname); 
+    $(data.element).attr('data-itemid', data.itemid); 
+    return data.text;
+  }
+    });
+	
+		  
+		
+	 $('.select-ajax-labour').on('select2:open', function (e) {  
+		 
+		 if($('.input-modelcode').val()==='' || $('.input-vehiclecategory').val()===''){
+					swal('Ahh!', "Please select proper 'Model' first.", 'warning', { buttons: false, timer: 2000,  });  
+		}
+		 if($('.select-ajax-area').val()===''){
+					swal('Ahh!', "Please select proper 'City' & 'Area' first.", 'warning', { buttons: false, timer: 2000,  });  
+		}
+	 
+	});
+		
+		
+	
+		
+	$('#estimate_table tbody').on( 'click', '.btn-delete', function () {
+		var currentrow = $(this).parents('tr');
+		var getitemvalue = currentrow.find('.input_itemcode').val();
+		$('#selected_'+getitemvalue).remove();
+		estimate_table
+			.row( $(this).parents('tr') )
+			.remove()
+			.draw();
+		
+		var which_type = currentrow.find('.itemtype').val();
+		
+		removeThis_fromArray(which_type, getitemvalue);
+		 
+		calculateColumn();
+		 
+	});
+	
+		$('.select-ajax-spares-brand').change(function(){ 
+			
+			var brand_rate = $(this).find(':selected').data('brandrate');  
+			var next_spares = $(this).parents('tr').find('.spares_amount');
+			//alert(next_spares.val());
+			next_spares.val(brand_rate).change();
+			calculateColumn();
+			 
+		});
+		
+	 
+		// add row
+    $('.add-row').click(function () { 
+        var rowHtml = $("#estimate_table").find("tr")[0].outerHTML 
+        estimate_table.row.add($(rowHtml)).draw();
+    });
+	
+	//POPULATE TABLE ON SERVICE CATEGORY CHANGE
+	$(".select-ajax-service-category").change(function(){  
+			var service_category = $(this).find(':selected').data('service_name');
+			var itemtype = $(this).find(':selected').data('itemtype'); 
+			var sparesrates = 0; 
+			var labourrates = $(this).find(':selected').data('categoryrates'); 
+			var totalrates = $(this).find(':selected').data('categoryrates'); 
+			var sparesid = ''; 
+			var itemcode = ''; 
+			var itemname = service_category; 
+			if($.inArray(service_category, service_category_array) != -1){
+				swal('Ahh!', "This Service Category already selected.", 'warning', { buttons: false, timer: 2000,  });  	
+				}else{
+		   if(service_category !== ""){    
+			  estimate_table.clear().draw();  
+			  counter = 1; 
+			 estimate_table.row.add( [
+            '<input type="hidden" name="estimate_row[]" value="'+ counter + '"><input type="hidden" name="item_id[]" value="'+ service_category + '"><input type="hidden" name="complaint_number[]" value="0"><input type="hidden" name="complaints[]" value=""><input type="hidden" class="itemtype" name="itemtype[]" value="Service Category">'+ counter,
+            '<input type="hidden" class="input_itemcode" name="sparesid[]" value="'+ service_category + '"><input type="hidden" name="item_name[]" value="'+ itemname + '">'+ itemname,
+            '<input type="text" name="quantity[]" tabindex="1" id="quantity_'+ counter + '" onclick="row_sum('+ counter + ')" size="2" value="1" class="form-control col-4" onkeyup="row_sum('+ counter + ')">',
+            '<input type="text" name="spares_rate[]" class="form-control spares_amount"  required onkeyup="row_sum('+ counter + ')" onchange="row_sum('+ counter + ')"  id="spares_'+ counter + '" size="6" value="'+ sparesrates + '">',
+            '<input type="text" name="labour_rate[]" class="form-control"  required onkeyup="row_sum('+ counter + ')"  id="labour_'+ counter + '" size="6" value="'+ labourrates + '">',
+			'<input type="text" name="total_rate[]"  class="form-control input-totalrate" required onkeyup="row_sum('+ counter + ')"  id="total_'+ counter + '" size="6" value="'+ totalrates + '">',
+			'<button type="button" class="btn btn-danger btn-delete"><i class="fas fa-trash"></i></button>'	 	 
+        ] ).draw();
+ 			$(".selected_service_category").append('<div id="selected_'+service_category+'" class="badge badge-info mr-2">'+itemname+'</div>');
+        counter++; 
+		
+			   spares_array = [];	
+			      labour_array = [];	
+				  service_category_array = [];
+			   $(".selected_spares").html();
+			   $(".selected_labour").html();
+			   service_category_array.push(service_category);
+		   calculateColumn();	 
+		   }
+		   }
+	  });
+		
+		
+			    
+		
+		
+	//POPULATE TABLE ON SPECIFIC SPARES CHANGE
+	$(".select-ajax-spares").change(function(){  
+			var spares = $(this).val();
+			var itemtype = $(this).find(':selected').data('itemtype'); 
+			var sparesrates = $(this).find(':selected').data('sparesrates'); 
+			var labourrates = $(this).find(':selected').data('labourrates'); 
+			var totalrates = $(this).find(':selected').data('totalrates'); 
+			var sparesid = $(this).find(':selected').data('sparesid'); 
+			var itemcode = $(this).find(':selected').data('itemcode'); 
+			var itemname = $(this).find(':selected').data('itemname'); 
+			var itemid = $(this).find(':selected').data('itemid'); 
+			 var brandoptions = $('#brand_div').html();
+			if($.inArray(spares, spares_array) != -1){
+				swal('Ahh!', "This Spare already selected.", 'warning', { buttons: false, timer: 2000,  });  	
+				}else{
+			initailizeBrand();		
+		   if(spares !== ""){   
+			 estimate_table.row.add( [
+            '<input type="hidden" name="estimate_row[]" value="'+ counter + '"><input type="hidden" name="item_id[]" value="'+ spares + '"><input type="hidden" name="complaint_number[]" value="0"><input type="hidden" name="complaints[]" value=""><input type="hidden" class="itemtype" name="itemtype[]" value="'+ itemtype +'">'+ counter,
+            '<input type="hidden" class="input_itemcode" name="sparesid[]" value="'+ spares + '"><input type="hidden" name="itemid[]" value="'+ itemid + '"><input type="hidden" name="item_name[]" value="'+ itemname + '"><input type="hidden" name="jobdet_ID[]" value="0">'+ itemname,
+				 
+            '<input type="text" name="quantity[]" tabindex="1" id="quantity_'+ counter + '" onclick="row_sum('+ counter + ')" size="2" value="1" class="form-control" onkeyup="row_sum('+ counter + ')">',
+            '<input type="text" name="spares_rate[]" class="form-control spares_amount"  required onkeyup="row_sum('+ counter + ')" onchange="row_sum('+ counter + ')"  id="spares_'+ counter + '" size="6" value="'+ sparesrates + '">',
+            '<input type="text" name="labour_rate[]" class="form-control"  required onkeyup="row_sum('+ counter + ')"  id="labour_'+ counter + '" size="6" value="'+ labourrates + '">',
+			'<input type="text" name="total_rate[]"  class="form-control input-totalrate" required onkeyup="row_sum('+ counter + ')"  id="total_'+ counter + '" size="6" value="'+ totalrates + '">',
+			'<button type="button" class="btn btn-danger btn-delete"><i class="fas fa-trash"></i></button>'	 	 
+        ] ).draw();
+ 			$(".selected_spares").append('<div id="selected_'+spares+'" class="badge badge-info mr-2">'+itemname+'</div>');
+        counter++;
+       calculateColumn();
+        	spares_array.push(spares);
+			initailizeBrand();   
+		   }
+		   }
+	  });
+	
+	 //POPULATE TABLE ON SPECIFIC LABOUR CHANGE
+	$(".select-ajax-labour").change(function(){  
+			var labour = $(this).val();
+			var itemtype = $(this).find(':selected').data('itemtype'); 
+			var sparesrates = $(this).find(':selected').data('sparesrates'); 
+			var labourrates = $(this).find(':selected').data('labourrates'); 
+			var totalrates = $(this).find(':selected').data('totalrates'); 
+			var sparesid = $(this).find(':selected').data('sparesid'); 
+			var itemcode = $(this).find(':selected').data('itemcode'); 
+			var itemname = $(this).find(':selected').data('itemname'); 
+			var itemid = $(this).find(':selected').data('itemid'); 
+			if($.inArray(labour, labour_array) != -1){
+				swal('Ahh!', "This Labour already selected.", 'warning', { buttons: false, timer: 2000,  });  	
+				}else{  
+		   if(labour !== ""){   
+			 estimate_table.row.add( [
+            '<input type="hidden" name="estimate_row[]" value="'+ counter + '"><input type="hidden" name="item_id[]" value="'+ labour + '"><input type="hidden" name="complaint_number[]" value="0"><input type="hidden" name="complaints[]" value=""><input type="hidden" class="itemtype" name="itemtype[]" value="'+ itemtype +'">'+ counter,
+            '<input type="hidden" class="input_itemcode" name="labourid[]" value="'+ labour + '"><input type="hidden" name="itemid[]" value="'+ itemid + '"><input type="hidden" name="item_name[]" value="'+ itemname + '"><input type="hidden" name="jobdet_ID[]" value="0">'+ itemname,
+				 
+            '<input type="text" name="quantity[]" tabindex="1" id="quantity_'+ counter + '" onclick="row_sum('+ counter + ')" size="2" value="1" class="form-control" onkeyup="row_sum('+ counter + ')">',
+            '<input type="text" name="spares_rate[]" class="form-control spares_amount"  required onkeyup="row_sum('+ counter + ')" onchange="row_sum('+ counter + ')"  id="spares_'+ counter + '" size="6" value="'+ sparesrates + '">',
+            '<input type="text" name="labour_rate[]" class="form-control"  required onkeyup="row_sum('+ counter + ')"  id="labour_'+ counter + '" size="6" value="'+ labourrates + '">',
+			'<input type="text" name="total_rate[]" class="form-control input-totalrate"  required onkeyup="row_sum('+ counter + ')"  id="total_'+ counter + '" size="6" value="'+ totalrates + '">',
+			'<button type="button" class="btn btn-danger btn-delete"><i class="fas fa-trash"></i></button>'	 	 
+        ] ).draw();
+ 			$(".selected_labour").append('<div id="selected_'+labour+'" class="badge badge-info mr-2">'+itemname+'</div>');
+        counter++;
+        calculateColumn();
+        	labour_array.push(labour);
+		   }
+		}
+	  });
+		
+		
+		
+			//GET COMPLAINTS LIST
+	$(".select-ajax-complaints").select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+			
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/complaints_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        }
+    });
+	
+		 $('.select-ajax-complaints').on('select2:open', function (e) {  
+		 
+		 if($('.input-modelcode').val()==='' || $('.input-vehiclecategory').val()===''){
+					swal('Ahh!', "Please select proper 'Model' first.", 'warning', { buttons: false, timer: 2000,  });  
+				}
+		  if($('.select-ajax-area').val()===''){
+					swal('Ahh!', "Please select proper 'City' & 'Area' first.", 'warning', { buttons: false, timer: 2000,  });
+		  }
+		  if($('.select-ajax-channel').val()===''){
+					swal('Ahh!', "Please select proper 'Channel' first.", 'warning', { buttons: false, timer: 2000,  });	  
+		}
+	 
+	});
+	
+	//POPULATE COMPLAINT & COMPLAINTS OPTION TABLES
+	$(".select-ajax-complaints").change(function(){  
+			var complaint = $(this).val();
+			var vehiclecategory = $('.input-vehiclecategory').val();
+		  	var modelcode = $('.input-modelcode').val(); 
+			var channel = $('.select-ajax-channel').val();
+			var city = $('.select-ajax-city').val();	 
+			var complain_array_count = (complain_array.length+1);
+		   if(complaint !== ""){    
+			var body = '';	   
+			   $.ajax({
+            url: 'http://localhost/exotel/generals/complaint_options/',
+            type: 'POST',
+            data: {'complaint': complaint, 'vehiclecategory': vehiclecategory, 'modelcode': modelcode, 'channel':channel, 'city':city, 'complaints_counter':complain_array_count},
+            dataType: 'json',
+            success: function (data) { 
+				
+				if($.inArray(data[0].complaints, complain_array) != -1){
+				swal('Ahh!', "This Complaint already selected.", 'warning', { buttons: false, timer: 2000,  });  	
+				}else{  
+				if(data[0].complaints!==""){ 
+					
+					initailizeBrand();  
+				
+				//data[0].complaints_counter = data[0].count;
+					
+				data[0].complaints_counter =  complain_array_count;
+					
+			body += '<div class="card-complaints card card-info" id="card_complaints_'+data[0].complaints_counter+'"><div class="card-header"> <h4>Complaint '+data[0].complaints_counter+ ': ' + data[0].complaints + '</h4><input type="hidden" id="this_complaint_table_name_'+data[0].complaints_counter+'" value="'+data[0].complaints+'" /> <div class="card-header-action col-md-6"> <button type="button" class="btn btn-danger float-right" onclick="deleteComplaint('+data[0].complaints_counter+');"><i class="fas fa-trash"></i></button> </div>   </div> <div class="collapse show" id="complaint-collapse-'+data[0].complaints_counter+'" style="">  <div class="card-body"> <div class="row">';  
+			body += '<table class="table table-striped tables-complaints" id="complaintstable_'+data[0].complaints_counter+'"><thead><th>Options</th><th>Description</th><th>Quantity</th><th>Spares</th> <th>Labour</th> <th>Total</th></thead><tbody>';  
+					var rowid=1;
+				 $.each(data, function(i, data) {
+					 data.count = complain_array_count;
+					 
+					 
+					 
+            body += '<tr><td><input type="hidden" name="estimate_row[]" value="'+ data.count + '"><input type="hidden" name="item_id[]" value="'+ data.itemid + '"><input type="hidden" name="complaint_number[]" value="'+ data.count + '"><input type="hidden" name="complaints[]" value="'+ data.complaints + '"><input type="hidden" class="itemtype" name="itemtype[]" value="Complaints">'+ data.options +'</td><td><input type="hidden" class="input_itemcode" name="complaint_id[]" value="'+ data.count + '"><input type="hidden" name="itemid[]" value="'+ data.itemid + '"><input type="hidden" name="item_name[]" value="'+ data.itemname + '">'+ data.itemname +'</td><td><input type="text" name="quantity[]" tabindex="1" id="quantity_'+ rowid + '" onclick="complain_row_sum('+ data.count + ', '+rowid+')" size="2" value="1" class="form-control col-6" onkeyup="complain_row_sum('+ data.count + ', '+rowid+')"></td><td><input type="text" name="spares_rate[]" class="form-control spares_amount"  required onkeyup="complain_row_sum('+ data.count + ', '+rowid+')" onchange="complain_row_sum('+ data.count + ', '+rowid+')"  id="spares_'+ rowid + '" size="6" value="'+ data.sparesrates + '"></td><td><input type="text" name="labour_rate[]" class="form-control"  required onkeyup="complain_row_sum('+ data.count + ', '+rowid+')"  id="labour_'+ rowid + '" size="6" value="'+ data.labourrates + '"></td><td><input type="text" name="total_rate[]" class="form-control input-complaint_totalrate"  required onkeyup="complain_row_sum('+ data.count + ', '+rowid+')"  id="total_'+ rowid + '" size="6" value="'+ data.totalrates + '"></td></tr>';
+					rowid++; 
+            });
+			
+			body += '</tbody></table></div></div></div></div>'; 		
+			complaints_counter++; 
+			   
+			 
+			 
+					
+			//$(".selected_complaints").append('<div id="selected_complaint_'+data[0].count+'" class="badge badge-info mr-2 selectedcomplain">'+data[0].complaints+'</div>'); 
+			$("#complaints_tables_div").append(body); 			
+			$('#complaintstable_'+data[0].count).DataTable({ paging: false, searching: false, ordering:false, info:false}); 		
+			complain_array.push(data[0].complaints);
+			selected_complaints();       	
+			calculateColumn_Complaint();
+				initailizeBrand(); 	
+					
+							}	
+			}
+						}
+        			});
+        	
+		   	}
+		    
+	  });	
+		
+		
+		
+		 
+			 $('#global_casefinder_booking_id').keyup(function () {
+            $('#global_casefinder_result').html(''); 
+            var img = "http://localhost/exotel/";
+            var searchField = $('#global_casefinder_booking_id').val(); 
+     $.ajax({
+     url:'http://localhost/exotel/generals/get_booking_casefinder/'+searchField,
+     method: 'POST',
+     data: {searchField: searchField},
+     dataType: 'json',
+     success: function(data){
+		 
+		 if(data !== ''){ 
+             $.each(data, function (key, value) {
+				 
+				 
+				 
+		   $('#global_casefinder_result').append('<div class="search-item"><a style="display:block;" href="' + img + 'bookings/booking_details/' + value.booking_id + '">' + '<b> Booking ID:' + value.booking_id+' </b><p><div class="ml-10 text-muted"> ' + value.customer_name + '  |  ' + value.customer_phone + '  |  ' + value.status + ' </div><span><small class="time text-right"> ' + value.service_date +' </small></span></p></a></div>');
+			 });
+		 }else{
+			 $('#global_casefinder_result').html('');  
+		 }
+        }, 
+    });
+	});	
+		 
+
+        $('#global_casefinder_result').on('click', 'li', function () {
+            var click_text = $(this).text().split('|');
+            $('#global_casefinder_booking_id').val($.trim(click_text[0]));
+            $("#global_casefinder_result").html('');
+        });
+		
+		
+           	
+		selected_complaints();
+		
+         
+		
+    }); 
+	
+	function selected_complaints(){
+				 
+				 $('#all_selected_complaints').val(complain_array.join('+'));  
+			$(".selected_complaints").html('');
+				jQuery.each(complain_array, function( i, val ) {
+					if(val!==''){ 
+			$(".selected_complaints").append('<div id="selected_complaint_'+i+'" class="badge badge-info mr-2 selectedcomplain">'+val+'</div>'); 
+					}
+				});
+			
+			 }
+	
+	
+	function initailizeBrand(){ 
+   $(".select-ajax-spares-brand").select2({
+        placeholder: "Search",
+        minimumInputLength: 0,
+		width: 'resolve',
+		allowClear: false,
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/spares_brand_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) { 
+                return {
+						q: params.term, // search term
+						page: params.page,
+						spareid: $(this).data("spareid"), 
+					  }; 
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-brandrate', data.brand_rate);  
+    return data.text;
+  }
+    });
+}
+	
+	
+	function removeThis_fromArray(which_type, which_value){ 
+			 
+		if(which_type=="Spare"){ 
+			if(Array.isArray(spares_array) && spares_array.length){ 
+				spares_array = jQuery.grep(spares_array, function(value) {
+				return value != which_value;
+			   });
+			}
+		}else if(which_type=="Labour"){  
+			if(Array.isArray(labour_array) && labour_array.length){ 	
+		  	labour_array = jQuery.grep(labour_array, function(value) {
+		  	return value != which_value;
+		  	});
+			} 
+		}else if(which_type=="Service Category"){  
+			if(Array.isArray(service_category_array) && service_category_array.length){ 	
+			service_category_array = jQuery.grep(service_category_array, function(value) {
+			return value != which_value;
+			});
+			}
+		}else if(which_type=="Complaints"){  
+			if(Array.isArray(complain_array) && complain_array.length){ 	
+			complain_array = jQuery.grep(complain_array, function(value) {
+		    return value != which_value;
+			}); 
+			 selected_complaints();
+			}
+		
+		}
+			
+		}
+	
+	
+        
+        function calculateColumn() {  
+			
+			var estimate_tablerows = $("#estimate_table");
+			var allEstimateTotal = 0; 
+			estimate_tablerows.find(".input-totalrate").each(function () {
+			if (!isNaN($(this).val())) {
+			var stval = parseFloat($(this).val());
+			allEstimateTotal += isNaN(stval) ? 0 : stval;
+				 
+			}
+			});
+			
+			$('#total_estimate_sum').val(allEstimateTotal);
+			calculatecombinedTotal();
+        }
+    
+ 
+	 
+			 
+	
+			function calculateColumn_Complaint() {    
+				
+				var complaintTableTotal_min = 0;
+			   var complaintTableTotal_max = 0;
+			$('.tables-complaints').each(function(index){  
+				
+				var	prices = []; 
+				$(this).find('tr').each(function(){  
+				var stval = $(this).find('.input-complaint_totalrate').val(); // parseFloat($(this).find('.input-complaint_totalrate').val());
+				var thisRowTotal = isNaN(stval) ? 0 : stval; 
+				prices.push(parseFloat(thisRowTotal));   
+				}); 
+				 
+				var thistable_max = Math.max.apply(null,prices);
+				var thistable_min = Math.min.apply(null,prices); 
+				
+				complaintTableTotal_max += thistable_max;
+				complaintTableTotal_min += thistable_min;
+				
+				
+			 
+			}); 
+				
+				
+				$('#max_complaints_val').val(complaintTableTotal_max);
+				$('#min_complaints_val').val(complaintTableTotal_min);
+				
+				//alert('Max '+ thistable_max);
+				//alert('Min '+ thistable_min);
+				
+				calculatecombinedTotal();	
+				
+        }
+	
+			
+			function calculatecombinedTotal() {  
+				
+			var $totalEstimate_v =  parseFloat($('#total_estimate_sum').val());
+			var $complaint_max_v =  parseFloat($('#max_complaints_val').val());  
+			var $complaint_min_v = parseFloat($('#min_complaints_val').val());  
+				
+			var	$totalEstimate = isNaN($totalEstimate_v) ? 0 : $totalEstimate_v;
+			var	$complaint_max = isNaN($complaint_max_v) ? 0 : $complaint_max_v;
+			var	$complaint_min = isNaN($complaint_min_v) ? 0 : $complaint_min_v;	
+				
+				var $totalcombine_max = parseFloat($totalEstimate)+parseFloat($complaint_max);
+				var $totalcombine_min = parseFloat($totalEstimate)+parseFloat($complaint_min);
+				 
+				$('#totalcombine_max').val($totalcombine_max);
+				$('#totalcombine_min').val($totalcombine_min);
+				
+				var	totalprice = 0;
+				var complainttotalprice = 0; 
+				
+			$('.input-totalrate').each(function(index){   
+				var stval = $(this).val();  
+				var thisRowTotal = isNaN(stval) ? 0 : stval;
+				totalprice += +parseFloat(thisRowTotal);
+				//totalprice.push(parseFloat(thisRowTotal));	  
+			});
+				
+				$('.input-complaint_totalrate').each(function(index){   
+				var stval = $(this).val();  
+				var thisRowTotal = isNaN(stval) ? 0 : stval;
+				complainttotalprice += +parseFloat(thisRowTotal);
+				//totalprice.push(parseFloat(thisRowTotal));	  
+			});
+				
+				
+				$('#totalcombined_all').val(totalprice+complainttotalprice);
+				
+			}
+				
+			 
+	
+		function deleteComplaint(complaint_number){  
+			
+		var complaint_name = $('#this_complaint_table_name_'+complaint_number).val();	
+		$('#card_complaints_'+complaint_number).remove();
+		$("#selected_complaint_"+complaint_number).remove();  
+		removeThis_fromArray('Complaints', complaint_name); 
+		calculateColumn();	
+		calculateColumn_Complaint();	 
+		}
+	
+		function delete_complain_row(complaint_row_number){ 
+		$('.tables-complaints').find('#complain_row_'+complaint_row_number).remove();
+			 
+		}
+	
+	//FUNCTION FOR LOCATION TO CONTROL MULTIPLE INPUTS THROUGH VARIABLES
+	 function get_city(target){ 
+	$('#'+target).select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+			
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/city_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        }
+    });
+	}
+	
+	 function get_area(id){ 
+	$('#area_'+id).select2({
+        placeholder: "Search",
+        minimumInputLength: 1,
+		width: 'resolve',
+		allowClear: false,
+			
+        ajax: { // instead of writing the function to execute the request we use Select2's convenient helper
+            url: "http://localhost/exotel/generals/area_dropdown/",
+             type: "post",
+   			dataType: 'json',
+			delay: 250, 
+            data: function (params) {
+                return {
+						q: params.term, // search term
+						page: params.page,
+						city: $('#city_'+id).val(),
+					  };
+            },
+            processResults: function (data, params) {
+      params.page = params.page || 1;
+      return {
+        results: data,
+        pagination: {
+          more: (params.page * 30) < data.total_count
+        } 
+      };
+    },cache: true
+        },
+		templateSelection: function (data, container) {
+    // Add custom attributes to the <option> tag for the selected option
+    $(data.element).attr('data-pincode', data.pincode);
+	$(data.element).attr('data-zone', data.zone);		
+    return data.text;
+  }
+    });
+	 }
+		
+	 
+		function get_pincode(id){ 
+		var pincode = $('#area_'+id).find(':selected').data('pincode')
+		$('#pincode_'+id).val(pincode);
+		}
+	
+		function get_zone(id){ 
+		var zone = $('#area_'+id).find(':selected').data('zone')
+		$('#zone_'+id).val(zone);
+		}
+		 
+		
+		function row_sum(id){
+			var  quantity = $("#quantity_" + id).val();
+			if(!$("#spares_" + id).val()){
+					$("#spares_" + id).val('0');
+				}
+				if(!$("#labour_" + id).val()){
+					$("#labour_" + id).val('0');
+				}
+			var spares_rate = parseInt($("#spares_" + id).val());
+			var labour_rate = parseInt($("#labour_" + id).val());
+			var total_rate = spares_rate+labour_rate
+			var total_amount = quantity * total_rate;
+			$("#total_" + id).val(total_amount);
+			calculateColumn();
+			
+		}
+	
+		function complain_row_sum(id,rowid){
+			
+			var quantity = $("#complaintstable_"+id).find("#quantity_" + rowid).val(); 
+			var spares = $("#complaintstable_"+id).find("#spares_" + rowid).val()
+			var labour = $("#complaintstable_"+id).find("#labour_" + rowid).val()
+			 
+				if(!spares){
+					spares=0;
+				}
+				if(!labour){
+					labour=0;
+				}
+			
+			var spares_rate = parseInt(spares);
+			var labour_rate = parseInt(labour);
+			var total_rate = spares_rate+labour_rate
+			var total_amount = quantity * total_rate;
+			$("#complaintstable_"+id).find("#total_" + rowid).val(total_amount);
+			
+			calculateColumn();	
+			calculateColumn_Complaint();	
+			 
+			
+		}
+		 
+	
+	
+
+	  
+</script> 
+<script>
+$(document).ready(function(){
+	
+	//$("#addedit_form").on("submit", function(){
+//   var formValues= $('#addedit_form').serialize();//Code: Action (like ajax...)
+//		alert(formValues);
+//   return false;
+// })
+	
+	
+  $(".year").datepicker({
+    format: "yyyy",
+     viewMode: "years", 
+     minViewMode: "years",
+     autoclose:true,
+    startDate: "1990",
+    endDate: "2021",
+    container: 'modal-body' 
+  });   
+}) 
+	
+	$('.modal').on('shown.bs.modal', function() { 
+$('.modal-body .datepicker').css('z-index','3000 !important');
+$('.modal-body .bs-datepicker-container').css('z-index','3000 !important'); 
+  $('.modal_year').datepicker({
+   format: "yyyy",
+     viewMode: "years", 
+     minViewMode: "years",
+     autoclose:true,
+    startDate: "1990",
+    endDate: "2021",
+    container: '.modal-body',
+	parentEl: '.modal-body'  
+  });
+});
+</script>
+
+
+
+ 
+
+ 
+
+ 
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgW3kze70q1ov1DO0DMUDsZd3f8CUUOBw&libraries=places"   defer></script>
+	<script>
+ 
+		
+		$(document).ready(function() {
+		 
+		createGeoListeners();
+	});
+		
+	function fetchlonglat(){
+		var geocoder = new google.maps.Geocoder();
+var address = document.getElementsByClassName("google_map").value;
+geocoder.geocode( { 'address': address}, function(results, status) {
+  if (status == google.maps.GeocoderStatus.OK)
+  {
+      // do something with the geocoded result
+      //
+       $('.longitude').val(results[0].geometry.location.longitude);
+        $('.latitude').val(results[0].geometry.location.latitude);
+	  
+	 
+  }
+});
+	}	
+	// Perhaps put these into a javascript library
+	function createGeoListeners(autocompletesWraps) {
+		var options = {types: ['geocode'],componentRestrictions: {country: "in"}};
+		var inputs = $('.google_map');
+		var autocompletes = [];
+		for (var i = 0; i < inputs.length; i++) {
+			var autocomplete = new google.maps.places.Autocomplete(inputs[i], options);
+			autocomplete.inputId = inputs[i].id;
+			autocomplete.inputs_long = $('.longitude');[i];
+			autocomplete.inputs_lat = $('.latitude');[i];
+			autocomplete.addListener('place_changed', fillInAddressFields);
+			inputs[i].addEventListener("focus", function() {
+				geoLocate(autocomplete);
+			}, false);
+			autocompletes.push(autocomplete);
+		}
+	}
+	function fillInAddressFields() {
+		$('.googleerror').removeClass('is-valid is-invalid');
+		var place = this.getPlace();
+		for (var i = 0; i < place.address_components.length; i++) {
+			var addressType = place.address_components[i].types[0];
+			var val = place.address_components[i].long_name;
+			var latval = place.geometry['location'].lat();
+			var lngval = place.geometry['location'].lng();  
+			$('.longitude').val(lngval);
+			$('.latitude').val(latval);
+		}
+	}
+	function geoLocate(autocomplete) {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(function(position) {
+				var geolocation = {
+					lat: position.coords.latitude,
+					lng: position.coords.longitude
+				};
+				var circle = new google.maps.Circle({
+					center: geolocation,
+					radius: position.coords.accuracy
+				});
+				autocomplete.setBounds(circle.getBounds());
+			});
+		}
+	}
+	function gm_authFailure() { 
+		$('.gm-err-autocomplete').addClass('is-invalid');
+		swal("Error","There is a problem with the Google Maps or Places API","error");
+	};
+    </script>
+<script> 
+$(document).ready(function () {
+    $("#addedit_form").validate({
+            rules: {
+              mobile: {
+                    required: true,
+                    maxlength: 10,
+                    minlength: 10,
+                    number: true,
+
+                },
+			  alternate_no:{
+				maxlength: 10,
+                    minlength: 10,
+                    number: true,
+			  },	
+              name: {
+                  required: true,
+                  number: false,
+
+              },
+              address: {
+                  required: true,
+
+              },
+             city: {
+                  required: true,
+              },
+              area: {
+                  required: true,
+              },
+              pincode: {
+                  required: true,
+              },
+              google_map: {
+                  required: true,
+              },
+              channel: {
+                  required: true,
+              }, 
+              make: {
+                  required: true,
+              },
+              model: {
+                  required: true,
+              },
+			  service_date:{
+				  required: true,
+			  },
+			  time_slot:{
+				  required: true,
+			  },
+			  service_category:{
+				  required: true,
+			  }		
+            } 
+		 
+            });
+	
+	 
+	$("#updatebookingaddress_form").validate({
+            rules: {
+              mobile: {
+                    required: true,
+                    maxlength: 10,
+                    minlength: 10,
+                    number: true,
+
+                },
+			   
+              address: {
+                  required: true,
+
+              },
+             city: {
+                  required: true,
+              },
+              area: {
+                  required: true,
+              },
+              pincode: {
+                  required: true,
+              },
+              google_map: {
+                  required: true,
+              }	
+            } 
+		 
+            });
+	
+
+    $('#name').keypress(function (e) {
+    var regex = new RegExp("^[a-zA-Z ]+$");
+    var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+    if (regex.test(str)) {
+    return true;
+    }
+    else
+    {
+    e.preventDefault();
+    alert('Please enter only alphabets in name');
+    return false;
+    }
+  });
+	 
+	
+	 $('#mobile').change(function() {
+   			  
+		 	var mobile = $(this).val();
+			var vehiclecategory = $('.input-vehiclecategory').val();
+		  	var modelcode = $('.input-modelcode').val(); 
+			var channel = $('.select-ajax-channel').val();
+			var city = $('.select-ajax-city').val();
+		 	var leads_convert = $('#leads_id').val();
+		 	var followup_booking = $('#followup_id').val();
+		    if(mobile.length == 10){  
+				if(leads_convert===''){
+					var leads_id = 0;
+				}else{
+					var leads_id = leads_convert;
+				}
+				
+				if(followup_booking===''){
+					var followup_id = 0;
+				}else{
+					var followup_id = followup_booking;
+				}
+				
+			$.ajax({
+            url: 'http://localhost/exotel/bookings/customer_existance/',
+            type: 'POST',
+            data: {'mobile': mobile, 'leads_id': leads_id, 'followup_id': followup_id},
+            dataType: 'json',
+            success: function (data) {
+				if(data.customer_id==0){ 
+										document.getElementById("addedit_form").reset();
+					$('#addedit_form').find('select')
+                    .val(null)
+                    .trigger('change.select2');
+					$('#addedit_form').find('input:text').val('');
+					 $("#name").attr("readonly", false); 
+					$('#address_type_div').hide();
+					$('#customer_vehicle_div').hide();
+					$('#mobile').val(mobile); 
+									}else{
+					 
+										location.reload(); 
+									}
+			}
+			   })
+		    }
+		 
+  	 });
+	
+	
+	
+	$('#address_type').change(function() {
+   			
+		 	var type = $(this).val(); 
+			var address = $(this).find(':selected').data('address');
+			var city = $(this).find(':selected').data('city');
+			var area = $(this).find(':selected').data('area');
+			var pincode = $(this).find(':selected').data('pincode');
+			var zone = $(this).find(':selected').data('zone');
+			var google_map = $(this).find(':selected').data('googlemap');
+			var latitude = $(this).find(':selected').data('latitude');
+			var longitude = $(this).find(':selected').data('longitude'); 
+		     
+			 $("#address").val(address); 
+		 	 
+			 $('#city').empty().trigger('change');
+		  	 var newOption = new Option(city, city, false, false);
+			 $('#city').append(newOption).trigger('change');
+			 
+			 $('#area').empty().trigger('change');
+			 var newOption = new Option(area, area, false, false);
+			 $('#area').append(newOption).trigger('change');
+			
+		
+		
+		
+			 $("#pincode").val(pincode);
+			 $("#zone").val(zone);
+		
+			 $("#google_map").val(google_map);
+			 $("#latitude").val(latitude);
+			 $("#longitude").val(longitude);
+		 
+  	 });
+	
+	
+	
+	$('#customer_vehicle').change(function() { 
+		 	var type = $(this).val(); 
+			var make = $(this).find(':selected').data('make');
+			var makename = $(this).find(':selected').data('makename');
+			var model = $(this).find(':selected').data('model');
+			var modelname = $(this).find(':selected').data('modelname');
+			var regno = $(this).find(':selected').data('regno');
+			var yom = $(this).find(':selected').data('yom');
+			var km_reading = $(this).find(':selected').data('kmreading'); 
+			var last_service_id = $(this).find(':selected').data('lastserviceid');
+			var last_service_date = $(this).find(':selected').data('lastservicedate');
+			var vehicle_category = $(this).find(':selected').data('vehiclecategory');
+			var model_code = $(this).find(':selected').data('modelcode'); 
+			 
+			 $('#make').empty().trigger('change');
+		  	 var newOption = new Option(makename, make, false, false);
+			 $('#make').append(newOption).trigger('change');
+		
+			 $('#model').empty().trigger('change');
+		  	 var newOption = new Option(modelname, model, false, false);
+			 $('#model').append(newOption).trigger('change');
+		
+		 
+		
+			 $("#reg_no").val(regno); 
+			 $("#yom").val(yom);
+			 $("#km_reading").val(km_reading); 
+			 $('.last_service_id').show();
+			 $("#last_service_id").val(last_service_id);
+			 $("#last_service_date").val(last_service_date); 
+			 $('#last_service_id_div').html('<a style="padding:5px;" target="_blank" href="http://localhost/exotel/bookings/booking_details/'+last_service_id+'" class="label-info">Last Booking - '+last_service_id+'</a>'); 
+			 $(".input-modelcode").val(model_code);
+			 $(".input-vehiclecategory").val(vehicle_category); 
+  	 });
+	
+	
+	 
+	 
+          });
+	
+	    
+	
+	function clearVehicle(){
+			 $('.select-ajax-make').val(null).trigger('change');
+				//$('.select-ajax-make').trigger('change');
+			 $(".select-ajax-model").val(null).trigger('change');
+			//	$('.select-ajax-model').trigger('change');
+			 $("#reg_no").val(null);
+			 $("#yom").val(null);
+			 $("#km_reading").val(null);
+	}
+	
+	
+          
+</script>
+
+
+
+	
+
+
+
+
+  
+
+  
+ 
+ 
+ 
+
+
+	 
+	
+ 
+
+
+  <script>
+$(document).ready(function() { 
+            });
+</script>
+</body>
+</html>
